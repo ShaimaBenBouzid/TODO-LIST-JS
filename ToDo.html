@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="ToDo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Poppins:wght@700&family=Signika:wght@700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <div class="todo-app">
+        <h1>To-Do List <img src="imgs/Vectordddd.png" /></h1>
+        <h2>Hi There, Shaima..</h2>
+        <h3>Today is :</h3>
+        <div class="costum-select">
+          <select name="Days">
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wensday">Wensday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+          </select>
+        </div>
+        <div class="container">
+          <div class="form">
+            <input type="text" id="input" placeholder="Start.." />
+            <button class="add" onclick="addTask()">Add Task</button>
+          </div>
+          <ul id="List-container">
+            <!-- <li class="checked">Task1</li>
+            <li>Task2</li>
+            <li>Task3</li>
+            <li>Task4</li>
+            <li>Task5</li>
+            <li>Task6</li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="ToDo.js"></script>
+  </body>
+</html>
