@@ -39,7 +39,7 @@ function showTask() {
 }
 showTask();
 
-/*ineed to change the select shape 
-i need to store the select days 
-i need to add icon of edditing 
-i need to js the edditing */
+// i need to store the select days
+
+
+ 
