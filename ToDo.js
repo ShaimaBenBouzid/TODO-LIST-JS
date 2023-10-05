@@ -38,8 +38,3 @@ function showTask() {
   ListContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
-
-// i need to store the select days
-
-
- 
